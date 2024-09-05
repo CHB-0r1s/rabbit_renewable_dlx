@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rabbit-renewable-dlx"
+version = "0.1.0"
+description = "Simple project for testing rabbit mq"
+authors = ["CHB_0r1s <borisluzin2004@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+black = "^24.8.0"
+
+[tool.poetry.group.dev.dependencies]
+aio-pika = "^9.4.3"
+pydantic = "1.10.18"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
